@@ -7,6 +7,7 @@ export const getTodo = /* GraphQL */ `
       id
       name
       description
+      image
       createdAt
       updatedAt
     }
@@ -23,6 +24,7 @@ export const listTodos = /* GraphQL */ `
         id
         name
         description
+        image
         createdAt
         updatedAt
       }
@@ -36,6 +38,7 @@ export const getNote = /* GraphQL */ `
       id
       name
       description
+      image
       createdAt
       updatedAt
     }
@@ -52,6 +55,7 @@ export const listNotes = /* GraphQL */ `
         id
         name
         description
+        image
         createdAt
         updatedAt
       }

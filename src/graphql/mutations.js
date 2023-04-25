@@ -10,6 +10,7 @@ export const createTodo = /* GraphQL */ `
       id
       name
       description
+      image
       createdAt
       updatedAt
     }
@@ -24,6 +25,7 @@ export const updateTodo = /* GraphQL */ `
       id
       name
       description
+      image
       createdAt
       updatedAt
     }
@@ -38,6 +40,7 @@ export const deleteTodo = /* GraphQL */ `
       id
       name
       description
+      image
       createdAt
       updatedAt
     }
@@ -52,6 +55,7 @@ export const createNote = /* GraphQL */ `
       id
       name
       description
+      image
       createdAt
       updatedAt
     }
@@ -66,6 +70,7 @@ export const updateNote = /* GraphQL */ `
       id
       name
       description
+      image
       createdAt
       updatedAt
     }
@@ -80,6 +85,7 @@ export const deleteNote = /* GraphQL */ `
       id
       name
       description
+      image
       createdAt
       updatedAt
     }

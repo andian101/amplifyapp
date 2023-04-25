@@ -7,6 +7,7 @@ export const onCreateTodo = /* GraphQL */ `
       id
       name
       description
+      image
       createdAt
       updatedAt
     }
@@ -18,6 +19,7 @@ export const onUpdateTodo = /* GraphQL */ `
       id
       name
       description
+      image
       createdAt
       updatedAt
     }
@@ -29,6 +31,7 @@ export const onDeleteTodo = /* GraphQL */ `
       id
       name
       description
+      image
       createdAt
       updatedAt
     }
@@ -40,6 +43,7 @@ export const onCreateNote = /* GraphQL */ `
       id
       name
       description
+      image
       createdAt
       updatedAt
     }
@@ -51,6 +55,7 @@ export const onUpdateNote = /* GraphQL */ `
       id
       name
       description
+      image
       createdAt
       updatedAt
     }
@@ -62,6 +67,7 @@ export const onDeleteNote = /* GraphQL */ `
       id
       name
       description
+      image
       createdAt
       updatedAt
     }
